@@ -216,29 +216,32 @@
 
 
 
-$user1 = "user1";
-$user2 = "user2";
+// $user1 = "user1";
+// $user2 = "user2";
 
-switch ($user1) {
-    case "user1":
-        echo "Hello user1";
-        break;
-    default:
-        echo "Unknown user";
-        break;
-}
+// switch ($user1) {
+//     case "user1":
+//         echo "Hello user1";
+//         break;
+//     default:
+//         echo "Unknown user";
+//         break;
+// }
 
-switch ($user2) {
-    case "user2":
-        echo "Hello user2";
-        break;
-    default:
-        echo "Unknown user";
-        break;
-}
+// switch ($user2) {
+//     case "user2":
+//         echo "Hello user2";
+//         break;
+//     default:
+//         echo "Unknown user";
+//         break;
+// }
 
 
-
+   for ( $lop = 2 ; $lop <= 40 ; $lop *=2 ) {
+      
+    echo $lop   . "<br/>" ; 
+   }
 
 
 
