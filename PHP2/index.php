@@ -22,6 +22,24 @@
        }
        else {
           echo "kuch nhi mil hra " ;
+
+
+       $case = "A" ;
+
+         switch ($case) {
+            case 'A':
+                echo "ky aha";
+                break;
+            
+            case 'A' :
+                echo "case 2 hu" ;
+                break;
+            
+            case "B" :
+                echo "case 2 hu" ;
+                break;
+         }
+
        }
   ?>
 </body>
