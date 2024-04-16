@@ -11,36 +11,70 @@
      
       echo "hello ajeet  <br/> "  ;
 
-      $var = 5 ;
+      // $var = 5 ;
 
-       echo " hello  $var "   ; 
-
-
-         $age = 4 ;  
-       if ( $age > 5) {
-        echo "hello derr bayuay" ;
-       }
-       else {
-          echo "kuch nhi mil hra " ;
+      //  echo " hello  $var "   ; 
 
 
-       $case = "A" ;
+      //    $age = 4 ;  
+      //  if ( $age > 5) {
+      //   echo "hello derr bayuay" ;
+      //  }
+      //  else {
+      //     echo "kuch nhi mil hra " ;
 
-         switch ($case) {
-            case 'A':
-                echo "ky aha";
-                break;
-            
-            case 'A' :
-                echo "case 2 hu" ;
-                break;
-            
-            case "B" :
-                echo "case 2 hu" ;
-                break;
-         }
+     
+      //  $i = 1 ;
+      //  for ($i= 1; $i <=10 ; $i++) { 
+      //     echo $i . "<br/>";
+      //  }
+         
 
-       }
+
+    // $fruits = array ( "apple"  , "orange" , "bana" , "mango" ); 
+      
+    //   echo $fruits[0] ; 
+
+    //   foreach($fruits as $fruit ){
+    //       echo $fruit . "<br/>" ;
+    //   }
+
+
+
+      // Indexed Array 
+
+
+      $Vegs = array("Sbji " , "Aalu" , "Kakri " , "Tamto ") ;
+
+        // array_push($Vegs , " Tiki");
+        // array_pop($Vegs) ;
+
+        array_shift($Vegs);
+
+        
+        foreach ($Vegs as $Veg) {
+           echo $Veg . "<br/>"  ; 
+        }
+
+
+
+
+   /*   
+      associative array - An array with keuy => value pair 
+      */
+
+
+      $employess = array(
+        "ajeet" => "software dev " ,
+        "Komal"  => "Web dev " ,
+        "Anshu" => "web sedi" ,
+        ) ;
+
+        echo "<pre>";
+        print_r($employess) ;
+
+
+
   ?>
 </body>
 </html>
