@@ -67,7 +67,7 @@
       $employess = array(
         "ajeet" => "software dev " ,
         "Komal"  => "Web dev " ,
-        "Anshu" => "web sedi" ,
+        
         ) ;
 
         echo "<pre>";
@@ -75,6 +75,41 @@
 
 
 
+
+
+
+        /* 
+
+         multidimensional array - Array inside array 
+         */
+
+
+    $students = array(
+         array("name" => "Ajeet" , "class" => "BCA"),
+         array("name" => "kumar" , "class" => "B.Tech")
+    );
+
+   
+
+    foreach ($students as $key => $value ){
+      // echo "<pre>" ; 
+      // print_r($value);
+      
+    foreach ($value as $k => $v){
+       echo  "<br> $k <br/> :" .  $v . "<br>" ;
+    }
+
+    }
+  //   $students = array(
+  //     array("name" => "Ajeet", "class" => "BCA"),
+  //     array("name" => "Kumar", "class" => "B.Tech")
+  // );
+  
+  // // Loop through the array and echo each element
+  // foreach ($students as $student) {
+  //     echo "Name: " . $student['name'] . ", Class: " . $student['class'] . "<br>";
+  // }
+  
   ?>
 </body>
 </html>
