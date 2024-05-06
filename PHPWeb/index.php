@@ -139,20 +139,32 @@ if (isset($_POST["submit"])){
 
   <!-- // checkbox in PHP  -->
 
-     <form action="" method="post" >
+     <form action="index.php" method="post" >
         
        <label for=""> Please slecte your fav. dishes </label> <br> <br>
-        <input type="checkbox" value="Apple" name="fruit" > Apple  <br>
-        <input type="checkbox" value="Banna" name="fruit" > Banna  <br>
-        <input type="checkbox" value="Chiku" name="fruit" > Chiku <br>
-        <input type="checkbox" value="Graps" name="fruit" > Graps <br>
-        <input type="checkbox" value="Mango" name="fruit" > Mango <br>
+        <input type="checkbox" value="Apple" name="fruit[]" > Apple  <br>
+        <input type="checkbox" value="Banna" name="fruit[]" > Banna  <br>
+        <input type="checkbox" value="Chiku" name="fruit[]" > Chiku <br>
+        <input type="checkbox" value="Graps" name="fruit[]" > Graps <br>
+        <input type="checkbox" value="Mango" name="fruit[]" > Mango <br>
       
-          <input type="submit"  value="submit" name="sumit" >
+          <input type="submit"  value="submit" name="submit" >
      
      </form>
    
+   <?php 
+      if (isset ($_POST ['submit'])){
+       
+        $reslut = $_POST['fruit'];
+        foreach ($reslut as $foods){
+           echo $foods  . "<br>";
+        }
 
+      };
+
+   
+      
+   ?>
         
     
 
