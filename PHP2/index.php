@@ -12,7 +12,8 @@
       echo "hello ajeet  <br/> "  ;
 
       // $var = 5 ;
-
+      
+      // use Illuminate\Support\Facades
       //  echo " hello  $var "   ; 
 
 
@@ -55,6 +56,7 @@
         foreach ($Vegs as $Veg) {
            echo $Veg . "<br/>"  ; 
         }
+       
 
 
 

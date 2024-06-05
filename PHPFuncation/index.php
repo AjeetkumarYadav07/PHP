@@ -19,16 +19,16 @@
    */
 
 
-    /// Function call 
+     Function call 
 
-    //  $a = 15 ;
-    //  $b = 20;
-    //   sum($a , $b);
+     $a = 15 ;
+     $b = 20;
+      sum($a , $b);
 
-    //   function sum($a , $b)
-    //   {
-    //      echo $a + $b  . "<br>" ;
-    //   }
+      function sum($a , $b)
+      {
+         echo $a + $b  . "<br>" ;
+      }
 
 
         $firstNum = 15;
